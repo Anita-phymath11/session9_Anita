@@ -15,7 +15,7 @@ evenl=[]
 oddl=[]
 l1=[]
 while 1:
-    inp=input("nums: ")
+    inp=input()
     if inp=='':
         break
     else:
