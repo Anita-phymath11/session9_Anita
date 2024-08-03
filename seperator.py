@@ -13,14 +13,9 @@ def seperator(x):
         oddl.append(x)
 evenl=[]
 oddl=[]
-l1=[]
-while 1:
-    inp=input()
-    if inp=='':
-        break
-    else:
-        nums=int(inp)
-        seperator(nums)
+l1=([-3,-2,-1,0,1,2,3])
+for i in l1:
+    seperator(i)
 
 l2=[]
 l2.append(evenl)
